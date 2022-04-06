@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="life.example.xpress.ui.taches.Taches"
+    android:background="@drawable/wall"
+    android:id="@+id/fragment_taches">
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <!--<LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+         android:gravity="center_horizontal"
+          android:layout_margin="10dp">
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Demendes déjà envoyés"
+              android:textStyle="bold"
+              android:textSize="20dp" />
+          <TextView
+              android:id="@+id/totalTache"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="5"
+              android:textStyle="bold"
+              android:textSize="20dp"
+              android:layout_marginLeft="5dp"/>
+      </LinearLayout>-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</FrameLayout>

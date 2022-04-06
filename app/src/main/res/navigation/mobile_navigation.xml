@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="life.example.xpress.ui.home.HomeFragment"
+        android:label="@string/service_menu"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="life.example.xpress.ui.Team.TeamFragment"
+        android:label="@string/team_menu"
+        tools:layout="@layout/fragment_team" />
+    <fragment
+        android:id="@+id/taches"
+        android:name="life.example.xpress.ui.taches.Taches"
+        android:label="Taches"
+        tools:layout="@layout/fragment_taches" />
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="life.example.xpress.ui.web_site.WebsiteFragment"
+        android:label="@string/web_site"
+        tools:layout="@layout/fragment_website" />
+    <fragment
+        android:id="@+id/settings"
+        android:name="life.example.lifexpress.settings"
+        android:label="Parametres"
+        tools:layout="@layout/fragment_settings"
+        />
+</navigation>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_engineering_24"
+            android:title="@string/service_menu" />
+      <!--  <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/team"
+            android:title="@string/team_menu" /> -->
+        <item
+            android:id="@+id/taches"
+            android:icon="@drawable/ic_baseline_article_24"
+            android:title="@string/taches_title" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/web_icon"
+            android:title="@string/web_site" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/setting_icon"
+            android:title="Parametres" />
+
+    </group>
+    <item android:title="Contacts">
+        <menu>
+            <item android:id="@+id/pays_number"
+                android:title="Tel : +257 22 28 11 41" />
+            <item
+                android:title="Email : info@lifexpress.bi" />
+            <item
+                android:title="@string/notresite" />
+        </menu>
+    </item>
+</menu>

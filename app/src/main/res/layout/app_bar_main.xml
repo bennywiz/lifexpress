@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="life.example.xpress.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.LifeXpress.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.LifeXpress.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+  <!--  <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_ele"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginBottom="80dp"
+        android:textColor="@color/white"
+        app:fabSize="mini"
+        app:icon="@drawable/eletricite"
+        android:visibility="invisible"
+        app:rippleColor="@color/yellowexpress_100" />
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_info"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        app:fabSize="mini"
+        app:rippleColor="@color/yellowexpress_100"
+        android:layout_marginBottom="140dp"
+        app:icon="@drawable/informatique"
+        android:visibility="invisible"
+        android:textStyle="bold"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_plomb"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        app:fabSize="mini"
+        app:rippleColor="@color/yellowexpress_100"
+        android:layout_marginBottom="200dp"
+        app:icon="@drawable/plomberie"
+        android:visibility="invisible"
+        android:textStyle="bold"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_clim"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        app:fabSize="mini"
+        app:rippleColor="@color/yellowexpress_100"
+        android:layout_marginBottom="260dp"
+        app:icon="@drawable/climat"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:visibility="invisible"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_group"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        app:fabSize="mini"
+        app:rippleColor="@color/yellowexpress_100"
+        android:layout_marginBottom="320dp"
+        app:icon="@drawable/grp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:visibility="invisible"/>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_hand"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        app:fabSize="mini"
+        app:rippleColor="@color/yellowexpress_100"
+        android:layout_marginBottom="380dp"
+        app:icon="@drawable/handyman"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:visibility="invisible"/> -->
+   <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:fabSize="normal"
+        app:rippleColor="@color/yellowexpress"
+        app:icon="@drawable/phone"
+        android:textStyle="bold"
+        android:elevation="6dp"
+        android:textColor="@color/white"/>
+
+    <!--
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:text="contact"
+        app:icon="@drawable/phone"/>
+-->
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

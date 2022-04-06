@@ -1,0 +1,252 @@
+<resources>
+    <string name="app_name">LifeXpress</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Life Express</string>
+    <string name="nav_header_subtitle">www.lifexpress.bi</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="service_menu">Services</string>
+    <string name="team_menu">Notre equipe</string>
+    <string name="web_site">Apropos de nous</string>
+    <string name="taches_title">Taches</string>
+    <string name="pays_name">Burundi</string>
+    <string name="notresite"><a href="http://www.lifexpress.bi">www.lifexpress.bi</a></string>
+    <string-array name="type_client">
+        <item>Entreprise</item>
+        <item>Client</item>
+    </string-array>
+    <string-array name="lqngue_aray">
+        <item>Francais</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="counrty_aray">
+        <item>Burundi</item>
+        <item>Ouganda</item>
+    </string-array>
+    <string-array name="no_services">
+        <item>Maintenance</item>
+        <item>Audit Technique</item>
+        <item>Consultance Technique</item>
+        <item>Fourniture de materiels</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="no_services_en">
+        <item>Maintenance</item>
+        <item>Technical audit</item>
+        <item>Technical Consultancy</item>
+        <item>Supply of materials</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="service_electr">
+        <item>Installation</item>
+        <item>Réparation et Depanage</item>
+        <item>Audit Technique</item>
+        <item>Consultance Technique</item>
+        <item>Fourniture de materiels</item>
+        <item>Cablage Electrique</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="service_electr_en">
+        <item>Installation</item>
+        <item>Repair and Depanage</item>
+        <item>Technical audit</item>
+        <item>Technical Consultancy</item>
+        <item>Supply of materials</item>
+        <item>Electrical wiring</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="service_hanyman">
+        <item>Construction</item>
+        <item>Design(Graphic,Interior)</item>
+        <item>Netoyage des Bureaux</item>
+        <item>Man Power(Main d\'oeuvre)</item>
+        <item>Entretien des piscines</item>
+        <item>Entretien des Jardins</item>
+        <item>Enlèvement des immondices</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="service_hanyman_en">
+        <item>Construction</item>
+        <item>Design(Graphic,Interior)</item>
+        <item>Office cleaning</item>
+        <item>Man Power</item>
+        <item>Pool maintenance</item>
+        <item>Garden maintenance</item>
+        <item>Rubbish removal</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="service_electrg_en">
+        <item>Maintenance</item>
+        <item>Maintenance of Generators</item>
+        <item>Assistance and Troubleshooting</item>
+        <item>Technical audit</item>
+        <item>Technical Consultancy</item>
+        <item>Supply of materials</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="service_electrg">
+        <item>Maintenance</item>
+        <item>Entretien des Groupes electrogènes</item>
+        <item>Assistance et Dépannage</item>
+        <item>Audit Technique</item>
+        <item>Consultance Technique</item>
+        <item>Fourniture de materiels</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="service_climat">
+        <item>Maintenance</item>
+        <item>Entretien des climatiseurs</item>
+        <item>Reparation et Dépannage</item>
+        <item>Audit Technique</item>
+        <item>Consultance Technique</item>
+        <item>Fourniture de materiels</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="service_climat_en">
+        <item>Maintenance</item>
+        <item>Air conditioner maintenance</item>
+        <item>Repair and Troubleshooting</item>
+        <item>Technical audit</item>
+        <item>Technical Consultancy</item>
+        <item>Supply of materials</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="service_informatique">
+        <item>Maintenance</item>
+        <item>Sécurité(installaion camera,alarms...)</item>
+        <item>Software(developpement web et mobile)</item>
+        <item>Marketing Digital (web site,gestion de reseau sociaux)</item>
+        <item>Fourniture de materiels</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="service_informatique_en">
+        <item>Maintenance</item>
+        <item>Security (camera installation, alarms ...)</item>
+        <item>Software (web and mobile development)</item>
+        <item>Digital Marketing (website, social network management)</item>
+        <item>Supply of materials</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="devices_informatique">
+        <item>Ordinateur Desktop</item>
+        <item>Ordinateur Laptop</item>
+        <item>Imptimante</item>
+        <item>Ondulaire</item>
+        <item>Routeur</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="devices_informatique_en">
+        <item>Computer Desktop</item>
+        <item>Computer Laptop</item>
+        <item>Printer</item>
+        <item>Wavy</item>
+        <item>Router</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="devices_electricité_en">
+        <item>Fuse(s)</item>
+        <item>Contactor(s)</item>
+        <item>Solar panel</item>
+        <item>Interputor</item>
+        <item>Auto Inverter</item>
+        <item>Manual diverter</item>
+        <item>The electric cables</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="devices_electricité">
+        <item>Fusible(s)</item>
+        <item>Contacteur(s)</item>
+        <item>Plaque solaire</item>
+        <item>Interputeur</item>
+        <item>Inverseur Auto</item>
+        <item>Inverseur manuelle</item>
+        <item>Cables Electriques</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="devices_plomberie">
+        <item>Robinet</item>
+        <item>Toilette à Siege</item>
+        <item>Lavabo</item>
+        <item>Robinet de queur</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="devices_plomberie_en">
+        <item>Faucet</item>
+        <item>Toilet at Seat</item>
+        <item>Washbasin</item>
+        <item>Queur tap</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="devices_handyman">
+        <item>Porte</item>
+        <item>Machine à laver</item>
+        <item>Réfrigelateur</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="devices_handyman_en">
+        <item>Dor</item>
+        <item>Washer</item>
+        <item>Refrigerator</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="devices_climatisation">
+        <item>Climatiseur</item>
+        <item>Vantilateur</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="devices_climatisation_en">
+        <item>Air conditioner</item>
+        <item>Fan</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="devices_electrogene">
+        <item>Groupe electrogene(s)</item>
+        <item>Filtre à mazout</item>
+        <item>Filtre à Huile</item>
+        <item>Filtre à air</item>
+        <item>Autres</item>
+    </string-array>
+    <string-array name="devices_electrogene_en">
+        <item>Generator(s)</item>
+        <item>Oil filter</item>
+        <item>Air Filter</item>
+        <item>Others</item>
+    </string-array>
+    <string name="fabtext">URGENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_en">MainActivity_en</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Langue</string>
+    <string name="messages_header_en">Language</string>
+    <string name="pays">pays</string>
+    <string name="country">country</string>
+    <string name="sync_header">Sync</string>
+
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">choisir une langue</string>
+    <string name="pays_title">choisir votre pays</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
